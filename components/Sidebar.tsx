@@ -8,7 +8,7 @@ const Sidebar = () => {
             <Image
                 src="/avatar.jpg"
                 alt="avatar"
-                className="mx-auto border rounded-full "
+                className="mx-auto border rounded-full"
                 height="128px"
                 width="128px"
                 layout="intrinsic"
