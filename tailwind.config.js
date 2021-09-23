@@ -1,10 +1,14 @@
 module.exports = {
     purge: ["./pages/**/*.tsx", "./components/**/*.tsx"],
-    darkMode: false, // or 'media' or 'class'
+    darkMode: "class", // or 'media' or 'class'
     theme: {
         fontFamily: {
             sans: ["ui-sans-serif", "system-ui"],
             kaushan: ["Kaushan Script"],
+        },
+        boxShadow: {
+            "custom-light": " 0 0 10px #313131",
+            "custom-dark": "5px 5px 10px #0a0c0e , -5px -5px 10px #14161c",
         },
         extend: {
             colors: {
@@ -12,7 +16,7 @@ module.exports = {
                     DEFAULT: "#F38A15",
                 },
                 red: {
-                    DEFAULT: "#D2215D",
+                    DEFAULT: "#F45C56",
                 },
                 dark: {
                     DEFAULT: "#010101",
@@ -26,7 +30,9 @@ module.exports = {
         },
     },
     variants: {
-        extend: {},
+        extend: {
+            boxShadow: ["dark"],
+        },
     },
     plugins: [],
 };
