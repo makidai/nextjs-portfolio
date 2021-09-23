@@ -17,8 +17,9 @@ const Sidebar = () => {
             <h3 className="my-4 text-3xl font-medium tracking-wider font-kaushan">
                 <span className="text-orange ">Ryodai</span> Makino
             </h3>
-            <p className="px-2 py-1 my-3 bg-gray-200 rounded-full dark:bg-dark-200 dark:bg-black-500">
-                Web Developer
+            
+            <p className="my-1 text-sm medium dark:bg-dark-200 dark:bg-black-500">
+                A Full Stack Developer
             </p>
 
             <div className="flex justify-around w-9/12 mx-auto my-5 text-orange md:w-full ">

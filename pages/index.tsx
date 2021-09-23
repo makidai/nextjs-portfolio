@@ -12,10 +12,10 @@ const index = () => {
                 style={{ marginLeft: "-1.5rem", marginRight: "-1.5rem" }}
             >
                 <h4 className="my-3 text-xl font-semibold tracking-wide">
-                    What I am doing
+                    My Skills
                 </h4>
 
-                <div className="grid gap-6 my-3 md:grid-cols-2">
+                <div className="grid gap-6 my-3 text-sm md:grid-cols-2">
                     {services.map((service) => (
                         <div
                             className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
