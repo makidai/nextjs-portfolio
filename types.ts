@@ -21,4 +21,4 @@ export interface IProject {
     key_techs: string[];
 }
 
-export type Category = "django" | "react" | "node";
+export type Category = "django" | "react";

@@ -31,7 +31,7 @@ const ProjectCard: FunctionComponent<{
                 height="150"
                 width="200"
             />
-            <p className="my-2 text-center">{name}</p>
+            <p className="my-2 font-sans text-center">{name}</p>
 
             {showDetail && (
                 <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
@@ -48,24 +48,24 @@ const ProjectCard: FunctionComponent<{
                                 href={github_url}
                                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                             >
-                                <AiFillGithub /> <span>Github</span>
+                                <AiFillGithub /> <span className="font-sans">Github</span>
                             </a>
                             <a
                                 href={deployed_url}
                                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                             >
-                                <AiFillProject /> <span>Project</span>
+                                <AiFillProject /> <span className="font-sans">Project</span>
                             </a>
                         </div>
                     </div>
 
                     <div>
-                        <h2 className="mb-3 text-xl font-medium md:text-2xl">
+                        <h2 className="mb-3 font-sans text-xl font-medium md:text-2xl">
                             {name}
                         </h2>
-                        <h3 className="mb-3 font-medium">{description}</h3>
+                        <h3 className="mb-3 font-sans font-medium">{description}</h3>
 
-                        <div className="flex flex-wrap mt-5 space-x-2 text-sm tracking-wider">
+                        <div className="flex flex-wrap mt-5 space-x-2 font-sans text-sm tracking-wider">
                             {key_techs.map((tech) => (
                                 <span
                                     key={tech}
@@ -81,7 +81,7 @@ const ProjectCard: FunctionComponent<{
                         onClick={() => setShowDetail(false)}
                         className="absolute p-1 bg-gray-200 rounded-full top-3 right-3 focus:outline-none dark:bg-dark-200"
                     >
-                        <MdClose size={30} />
+                        <MdClose size={20} />
                     </button>
                 </div>
             )}
