@@ -26,12 +26,24 @@ const ProjectCard: FunctionComponent<{
                 src={image_path}
                 alt={name}
                 className="cursor-pointer"
-                onClick={() => setShowDetail(true)}
+                // onClick={() => setShowDetail(true)}
                 layout="responsive"
                 height="150"
                 width="200"
             />
-            <p className="my-2 font-sans text-center">{name}</p>
+            <p className="my-2 font-sans text-xs text-center text-semibold">
+                {name}
+            </p>
+            <div className="flex flex-wrap mt-5 space-x-2 font-sans text-xs tracking-wider">
+                {key_techs.map((tech) => (
+                    <span
+                        key={tech}
+                        className="px-2 py-1 my-1 bg-gray-300 dark:bg-dark-100 rounde-sm"
+                    >
+                        {tech}
+                    </span>
+                ))}
+            </div>
 
             {showDetail && (
                 <div className="absolute top-0 left-0 z-10 grid w-full h-auto p-2 text-black bg-gray-100 md:grid-cols-2 gap-x-12 dark:text-white dark:bg-dark-100">
@@ -48,13 +60,15 @@ const ProjectCard: FunctionComponent<{
                                 href={github_url}
                                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                             >
-                                <AiFillGithub /> <span className="font-sans">Github</span>
+                                <AiFillGithub />{" "}
+                                <span className="font-sans">Github</span>
                             </a>
                             <a
                                 href={deployed_url}
                                 className="flex items-center px-4 py-2 space-x-3 text-lg bg-gray-200 dark:bg-dark-200"
                             >
-                                <AiFillProject /> <span className="font-sans">Project</span>
+                                <AiFillProject />{" "}
+                                <span className="font-sans">Project</span>
                             </a>
                         </div>
                     </div>
@@ -63,7 +77,9 @@ const ProjectCard: FunctionComponent<{
                         <h2 className="mb-3 font-sans text-xl font-medium md:text-2xl">
                             {name}
                         </h2>
-                        <h3 className="mb-3 font-sans font-medium">{description}</h3>
+                        <h3 className="mb-3 font-sans font-medium">
+                            {description}
+                        </h3>
 
                         <div className="flex flex-wrap mt-5 space-x-2 font-sans text-sm tracking-wider">
                             {key_techs.map((tech) => (

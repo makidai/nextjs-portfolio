@@ -37,6 +37,7 @@ const Sidebar = () => {
             </div>
 
             <button
+                suppressHydrationWarning
                 onClick={changeTheme}
                 className="w-8/12 px-3 py-2 my-4 font-sans text-white bg-black rounded-full cursor-pointer bg-gradient-to-r from-orange to-red focus:outline-none hover:scale-105"
             >

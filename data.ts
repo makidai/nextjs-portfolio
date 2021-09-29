@@ -107,13 +107,47 @@ export const environments: Skill[] = [
 
 export const projects: IProject[] = [
     {
+        id: 0,
         name: "Twidy",
         description:
-            "お買い物代行サービス",
+            "",
         image_path: "/images/twidy.png",
         deployed_url: "https://twidy.jp/ja/",
         github_url: "https://github.com/mirumee/saleor",
         category: ["django"],
-        key_techs: ["django", "saleor"],
+        key_techs: ["django", "OSS", "saleor"],
+    },
+    {
+        id: 1,
+        name: "商品管理ダッシュボード",
+        description:
+            "",
+        image_path: "/images/admin_site.png",
+        deployed_url: "https://twidy.jp/ja/",
+        github_url: "",
+        category: ["django"],
+        key_techs: ["django", "Bootstrap"],
+    },
+    {
+        id: 2,
+        name: "メルマガ配信ツール",
+        description:
+            "",
+        image_path: "/images/mail_magazine.png",
+        deployed_url: "https://twidy.jp/ja/",
+        github_url: "",
+        category: ["django"],
+        key_techs: ["django", "Bootstrap"],
+    },
+    {
+        id: 3,
+        name: "データ分析用ダッシュボード",
+        description:
+            "",
+        image_path: "/images/dashboard.png",
+        deployed_url: "https://twidy.jp/ja/",
+        github_url: "",
+        category: ["django"],
+        key_techs: ["django", "OSS", "AdminLTE", "Cart.js"],
     },
 ];
