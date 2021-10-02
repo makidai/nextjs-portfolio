@@ -12,7 +12,7 @@ const index = () => {
             animate="visible"
             exit="exit"
         >
-            <h6 className="my-3 font-sans text-base font-medium">
+            <h6 className="my-3 font-sans text-sm">
                 都内のWeb系スタートアップでフルスタックエンジニア兼スクラムリーダーを担当しています.
             </h6>
             <div
