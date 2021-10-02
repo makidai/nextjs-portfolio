@@ -1,13 +1,19 @@
 import Bar from "../components/Bar";
 import { languages, environments } from "../data";
 import { motion } from "framer-motion";
-import { fadeInUp } from "../animation";
+import { fadeInUp, pageAnimation } from "../animation";
 
 const Resume = () => {
     return (
-        <div className="px-6 py-2">
+        <motion.div
+            className="px-6 py-2"
+            variants={pageAnimation}
+            initial="initial"
+            animate="animate"
+            exit="exit"
+        >
             {/* //! Education & Experience */}
-            <div className="grid gap-6 md:grid-cols-2">
+            <motion.div className="grid gap-6 md:grid-cols-2">
                 <motion.div
                     variants={fadeInUp}
                     animate="animate"
@@ -52,7 +58,7 @@ const Resume = () => {
                         </p>
                     </div>
                 </motion.div>
-            </div>
+            </motion.div>
 
             <div className="grid gap-9 md:grid-cols-2">
                 <div>
@@ -77,7 +83,7 @@ const Resume = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </motion.div>
     );
 };
 

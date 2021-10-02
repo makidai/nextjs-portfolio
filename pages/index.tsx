@@ -24,7 +24,7 @@ const index = () => {
                 </h4>
 
                 <motion.div
-                    className="grid gap-6 my-3 font-sans md:grid-cols-2"
+                    className="grid gap-6 my-3 font-sans text-sm md:grid-cols-2"
                     variants={stagger}
                     animate="animate"
                     initial="initial"
@@ -32,7 +32,7 @@ const index = () => {
                     {services.map((service) => (
                         <motion.div
                             variants={fadeInUp}
-                            className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-black-500 lg:col-span-1 "
+                            className="col-span-2 p-2 bg-gray-200 rounded-lg dark:bg-dark-200 md:col-span-1 "
                             key={service.title}
                         >
                             <ServiceCard service={service} />
