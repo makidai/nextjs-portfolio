@@ -38,7 +38,7 @@ const ProjectCard: FunctionComponent<{
                 {key_techs.map((tech) => (
                     <span
                         key={tech}
-                        className="px-2 py-1 my-1 bg-gray-300 dark:bg-dark-100 rounde-sm"
+                        className="px-2 py-1 my-1 bg-white border rounded-md border-orange dark:bg-dark-100"
                     >
                         {tech}
                     </span>
@@ -85,7 +85,7 @@ const ProjectCard: FunctionComponent<{
                             {key_techs.map((tech) => (
                                 <span
                                     key={tech}
-                                    className="px-2 py-1 my-1 bg-gray-200 dark:bg-dark-200 rounde-sm"
+                                    className="px-2 py-1 my-1 bg-gray-200 rounded-sm dark:bg-dark-200"
                                 >
                                     {tech}
                                 </span>
