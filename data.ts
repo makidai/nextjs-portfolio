@@ -43,12 +43,12 @@ export const languages: Skill[] = [
     {
         Icon: BsCircleFill,
         name: "Python",
-        level: "80",
+        level: "90",
     },
 	{
 		Icon: BsCircleFill,
 		name: "Django",
-		level: "80",
+		level: "90",
 	},
     {
         Icon: BsCircleFill,
@@ -123,7 +123,7 @@ export const projects: IProject[] = [
         description:
             "",
         image_path: "/images/admin_site.png",
-        deployed_url: "https://twidy.jp/ja/",
+        deployed_url: "",
         github_url: "",
         category: ["django"],
         key_techs: ["django", "Bootstrap"],
@@ -134,7 +134,7 @@ export const projects: IProject[] = [
         description:
             "",
         image_path: "/images/mail_magazine.png",
-        deployed_url: "https://twidy.jp/ja/",
+        deployed_url: "",
         github_url: "",
         category: ["django"],
         key_techs: ["django", "Bootstrap"],
@@ -145,9 +145,20 @@ export const projects: IProject[] = [
         description:
             "",
         image_path: "/images/dashboard.png",
-        deployed_url: "https://twidy.jp/ja/",
+        deployed_url: "",
         github_url: "",
         category: ["django"],
         key_techs: ["django", "OSS", "AdminLTE", "Cart.js"],
+    },
+    {
+        id: 4,
+        name: "ポートフォリオサイト",
+        description:
+            "",
+        image_path: "/images/portfolio.png",
+        deployed_url: "",
+        github_url: "",
+        category: ["react"],
+        key_techs: ["Next.js", "Tailwind CSS"],
     },
 ];
