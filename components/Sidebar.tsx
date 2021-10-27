@@ -12,11 +12,11 @@ const Sidebar = () => {
     return (
         <>
             <Image
-                src="/images/avatar.jpg"
-                alt="avatar"
+                src="/images/me.jpg"
+                alt="me"
                 className="mx-auto border rounded-full"
-                height="150px"
-                width="120px"
+                height="140px"
+                width="140px"
                 layout="intrinsic"
                 quality="100"
             />
