@@ -31,7 +31,7 @@ const Sidebar = () => {
             </div>
 
             <div className="flex justify-around w-9/12 mx-auto my-5 text-orange md:w-full ">
-                <a href="https://github.com/makidai" target="_blank">
+                <a href="https://github.com/makidai" target="_blank" rel="noreferrer">
                     <AiFillGithub className="w-8 h-8 cursor-pointer" />
                 </a>
             </div>
