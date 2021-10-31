@@ -13,7 +13,7 @@ const index = () => {
             exit="exit"
         >
             <h6 className="my-3 font-sans text-sm">
-                都内のWeb系スタートアップでフルスタックエンジニア兼スクラムリーダーを担当しています.
+                都内のスタートアップ企業でフルスタックエンジニア兼スクラムリーダーを担当しています。
             </h6>
             <div
                 className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

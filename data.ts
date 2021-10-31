@@ -10,32 +10,32 @@ export const services: Service[] = [
     {
         Icon: RiComputerLine,
         title: "Frontend Development",
-        about: "<b>HTML</b>, <b>CSS</b>, <b>jQuery</b>を主に使用しており、現在は <b>TypeScript</b>+<b>Next.js</b>での開発も進めています.",
+        about: "<b>HTML</b>, <b>CSS</b>, <b>jQuery</b>を使用した開発が得意。現在は<b>TypeScript</b>+<b>Next.js</b>での開発も進行中。",
     },
     {
         Icon: FaServer,
         title: "Backend  Development",
-        about: "<b>Django</b>での開発が得意です.</br> 一人称開発で複数のアプリをリリースした経験があります.",
+        about: "<b>Django</b>を使用した開発が得意。</br> 一人称開発で設計から実装までを担当可能。",
     },
     {
         Icon: AiOutlineApi,
         title: "API Development",
-        about: "<b>GraphQL</b>での開発が得意です.</br> <b>Flutter</b>アプリと連携するAPIの設計・実装の経験があります. ",
+        about: "<b>GraphQL</b>を使用した開発が得意。</br> <b>Flutter</b>アプリと連携するAPIの設計・実装の経験有り。 ",
     },
     {
         Icon: SiGoogleanalytics,
         title: "Data Analysis",
-        about: "<b>Pandas</b>でのデータ操作が得意です. </br><b>Chart.js</b>を使用したダッシュボードをリリースした経験があります.",
+        about: "<b>Pandas</b>を使用したデータ操作が得意。 </br><b>Chart.js</b>を使用したダッシュボードをリリースした経験有り。",
     },
     {
         Icon: BsCloud,
         title: "Infrastructure",
-        about: "<b>Docker</b>+<b>AWS</b>を主に使用しており,</br><b>CloudFormation</b>を使用したサーバー構築の経験があります.",
+        about: "<b>Docker</b>+<b>AWS</b>を使用した環境が得意。</br><b>CloudFormation</b>でサーバー構築の経験有り。",
     },
     {
         Icon: RiComputerLine,
         title: "Whatever",
-        about: "スクラムリーダーとしてエンジニアのスプリント管理とリリースの指揮を担当しております. ",
+        about: "スクラムリーダーとしてエンジニアのスプリント管理とリリースの指揮を担当した経験有り。",
     },
 ];
 
