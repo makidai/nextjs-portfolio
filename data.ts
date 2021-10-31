@@ -15,17 +15,17 @@ export const services: Service[] = [
     {
         Icon: FaServer,
         title: "Backend  Development",
-        about: "<b>Django</b>での開発が得意です.</br> 複数のアプリを一人称の開発でリリースした経験があります.",
+        about: "<b>Django</b>での開発が得意です.</br> 一人称開発で複数のアプリをリリースした経験があります.",
     },
     {
         Icon: AiOutlineApi,
         title: "API Development",
-        about: "<b>GraphQL</b>での開発が得意です.</br> <b>Flutter</b>アプリとのAPI連携の経験があります. ",
+        about: "<b>GraphQL</b>での開発が得意です.</br> <b>Flutter</b>アプリと連携するAPIの設計・実装の経験があります. ",
     },
     {
         Icon: SiGoogleanalytics,
         title: "Data Analysis",
-        about: "<b>Pandas</b>でのデータ操作が得意です. </br><b>Chart.js</b>を使用したダッシュボードのリリース経験があります.",
+        about: "<b>Pandas</b>でのデータ操作が得意です. </br><b>Chart.js</b>を使用したダッシュボードをリリースした経験があります.",
     },
     {
         Icon: BsCloud,
