@@ -28,10 +28,14 @@ const Resume = () => {
                             保険医療学部臨床工学科
                         </p>
                         <p className="my-3 font-sans text-sm">
-                            手術支援ロボットのdaVinciに惹かれ、臨床工学技士を目指し大学に入学。
-                            学年成績と資格試験でトップをとることができ、特待生に選出される。
-                            大学2年次にプログラミングに興味を持ち始め、エンジニアとしての道を目指すようになり大学を中退。
+                            臨床工学技士を目指し大学に入学。
+                            特待生に選出される。
                         </p>
+                    </div>
+                    <div className="">
+                        <h5 className="my-2 font-sans text-sm font-bold">
+                            ・帯広三条高校 (2014/4 - 2017/3 卒業)
+                        </h5>
                     </div>
                 </motion.div>
                 <motion.div
@@ -42,25 +46,24 @@ const Resume = () => {
                     <h5 className="my-3 font-sans text-xl font-bold">経歴</h5>
                     <div className="">
                         <p className="font-sans text-sm font-semibold">
+                            ・WFrontier株式会社 (2020/8 - 現在)
+                        </p>
+                        <h5 className="my-2 font-sans text-sm font-bold">
+                            フルスタックエンジニア・スクラムマスター
+                        </h5>
+                        <p className="my-3 font-sans text-sm">
+                            ネットスーパーTwidyのリリースから倒産寸前までを経験。
+                        </p>
+                    </div>
+                    <div className="">
+                        <p className="font-sans text-sm font-semibold">
                             ・株式会社Canvas (2020/3 - 2020/8)
                         </p>
                         <h5 className="my-2 font-sans text-sm font-bold">
                             SES(サーバー保守・運用)
                         </h5>
                         <p className="my-3 font-sans text-sm">
-                            銀行系サーバーの保守用shellscriptの実装を担当。
-                        </p>
-                    </div>
-                    <div className="">
-                        <p className="font-sans text-sm font-semibold">
-                            ・WFrontier株式会社 (2020/8 - 現在)
-                        </p>
-                        <h5 className="my-2 font-sans text-sm font-bold">
-                            フルスタックエンジニア Jr.
-                        </h5>
-                        <p className="my-3 font-sans text-sm">
-                            買い物代行サービスTwidyのリリースに貢献。
-                            IT導入補助金対象となるWebツール（商品管理ダッシュボード・メルマガ配信ツール・データ分析ダッシュボード）を一人称開発でリリース。
+                            銀行系サーバーの保守用shellscriptの実装を経験。
                         </p>
                     </div>
                 </motion.div>

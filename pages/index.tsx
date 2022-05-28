@@ -13,7 +13,10 @@ const index = () => {
             exit="exit"
         >
             <h6 className="my-3 font-sans text-sm">
-                都内のスタートアップ企業でフルスタックエンジニア兼スクラムリーダーを担当しています。
+                都内のスタートアップ企業でエンジニア4名のスクラムリーダーを担当しています。
+            </h6>
+            <h6 className="font-sans text-sm">
+                Djangoを使用したフルスタックな開発が得意です。
             </h6>
             <div
                 className="flex-grow p-4 mt-5 bg-gray-400 dark:bg-dark-100 "

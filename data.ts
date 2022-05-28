@@ -10,32 +10,32 @@ export const services: Service[] = [
     {
         Icon: RiComputerLine,
         title: "Frontend Development",
-        about: "<b>HTML</b>, <b>CSS</b>, <b>jQuery</b>を使用した開発が得意。現在は<b>TypeScript</b>+<b>Next.js</b>での開発も進行中。",
+        about: "UI・UXデザインから実装までを経験。TypeScript+Next.jsを使用したPoCレベルの実装経験有。",
     },
     {
         Icon: FaServer,
         title: "Backend  Development",
-        about: "<b>Django</b>を使用した開発が得意。</br> 一人称開発で設計から実装までを担当可能。",
+        about: "設計から実装までを経験。Djangoを使用したデザインパターンやパフォーマンスを考慮した実装が可能。",
     },
     {
         Icon: AiOutlineApi,
         title: "API Development",
-        about: "<b>GraphQL</b>を使用した開発が得意。</br> <b>Flutter</b>アプリと連携するAPIの設計・実装の経験有り。 ",
+        about: "GraphQLのshema定義から実装までを経験。パフォーマンス考慮した実装とセキュリティを考慮した認証周りの設計が可能。 ",
     },
     {
         Icon: SiGoogleanalytics,
         title: "Data Analysis",
-        about: "<b>Pandas</b>を使用したデータ操作が得意。 </br><b>Chart.js</b>を使用したダッシュボードをリリースした経験有り。",
+        about: "pandasとplotlyのライブラリを使用した分析とデータビジュアライゼーションの経験有。",
     },
     {
         Icon: BsCloud,
         title: "Infrastructure",
-        about: "<b>Docker</b>+<b>AWS</b>を使用した環境が得意。</br><b>CloudFormation</b>でサーバー構築の経験有り。",
+        about: "EC2からFargateへの移行経験有。AWSのサービスやElasticSearchの経験はまだ浅く、調べながら実装可能なレベル。",
     },
     {
         Icon: RiComputerLine,
-        title: "Whatever",
-        about: "スクラムリーダーとしてエンジニアのスプリント管理とリリースの指揮を担当した経験有り。",
+        title: "Management",
+        about: "エンジニア4名チームのスクラムマスターの経験有。実装・テスト・評価・リリースのフローを構築。",
     },
 ];
 
@@ -52,23 +52,23 @@ export const languages: Skill[] = [
 	},
     {
         Icon: BsCircleFill,
-        name: "Java Script",
-        level: "60",
+        name: "TypeScript",
+        level: "70",
     },
     {
         Icon: BsCircleFill,
-        name: "React",
-        level: "60",
+        name: "React・NextJS",
+        level: "70",
     },
     {
         Icon: BsCircleFill,
-        name: "Flutter",
+        name: "Go",
         level: "40",
     },
     {
         Icon: BsCircleFill,
-        name: "Bootstrap",
-        level: "70",
+        name: "ReactNative",
+        level: "50",
     },
 ];
 
@@ -76,12 +76,12 @@ export const environments: Skill[] = [
     {
         Icon: BsCircleFill,
         name: "AWS",
-        level: "70",
+        level: "80",
     },
     {
         Icon: BsCircleFill,
-        name: "GCP",
-        level: "45",
+        name: "ElasticSearch",
+        level: "50",
     },
     {
         Icon: BsCircleFill,
@@ -95,27 +95,27 @@ export const environments: Skill[] = [
     },
     {
         Icon: BsCircleFill,
-        name: "Redis",
-        level: "40",
+        name: "Redis・Celery",
+        level: "50",
     },
     {
         Icon: BsCircleFill,
         name: "GraphQL",
-        level: "70",
+        level: "80",
     },
 ];
 
 export const projects: IProject[] = [
     {
         id: 0,
-        name: "Twidy",
+        name: "Twidyネットスーパー",
         description:
             "",
         image_path: "/images/twidy.png",
         deployed_url: "https://twidy.jp/ja/",
         github_url: "https://github.com/mirumee/saleor",
         category: ["django"],
-        key_techs: ["django", "OSS", "saleor"],
+        key_techs: ["Django"],
     },
     {
         id: 1,
@@ -126,7 +126,7 @@ export const projects: IProject[] = [
         deployed_url: "",
         github_url: "",
         category: ["django"],
-        key_techs: ["django", "Bootstrap"],
+        key_techs: ["Django"],
     },
     {
         id: 2,
@@ -137,7 +137,7 @@ export const projects: IProject[] = [
         deployed_url: "",
         github_url: "",
         category: ["django"],
-        key_techs: ["django", "Bootstrap"],
+        key_techs: ["Django"],
     },
     {
         id: 3,
@@ -148,7 +148,7 @@ export const projects: IProject[] = [
         deployed_url: "",
         github_url: "",
         category: ["django"],
-        key_techs: ["django", "OSS", "AdminLTE", "Cart.js"],
+        key_techs: ["Django"],
     },
     {
         id: 4,
@@ -159,6 +159,6 @@ export const projects: IProject[] = [
         deployed_url: "",
         github_url: "",
         category: ["react"],
-        key_techs: ["Next.js", "Tailwind CSS"],
+        key_techs: ["React"],
     },
 ];
